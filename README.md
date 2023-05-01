@@ -27,10 +27,11 @@ Each file has sections:
     * 2.3. Independent test set
     * \*. Save data for PR and ROC
 
-After the first section ran, you can run the subsection 2.1.-2.3. separately. Section \* is for saving the result of 2.3. used for AUROC and AUPR. Run code in section 2.3. before section \*
+After the first section ran, you can run the subsection 2.1.-2.3. separately. Section 2.1. is for the nested CV of methods and running this section is time consuming. Section 2.2. is for tuning the hyperparmeters for section 2.2. Section \* is for saving the result of 2.3. used for AUROC and AUPR. Run code in section 2.3. before section \*. 
 
 ## Pairwise Paired T-test
 
+Pvalue.ipynb is for calculating the P-value of paired t-test. Results from the nested CV is on "results/AUPR.
 
 ## Figures
 
