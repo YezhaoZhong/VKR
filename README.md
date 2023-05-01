@@ -17,8 +17,15 @@ for the models.
 - SVM_RBF.ipynb: SVM with RBF kernel
 - SVM_WGTS.ipynb: SVM with WGTS kernel
 - VKR.ipynb: Our VKR method
-Each file has Three sections, 
 
+Each file has sections: 
+
+- Define the functions used
+- Nested CV and CV
+-- Nested CV
+-- CV to tune hyperparameters for independent test set
+-- Independent test set
+-- Save data for PR and ROC
 
 ## Pairwise Paired T-test
 
