@@ -22,10 +22,10 @@ Each file has sections:
 
 - 1. Define the functions used
 - 2. Nested CV and CV
--     2.1 Nested CV
--     2.2 CV to tune hyperparameters for independent test set
--     2.3 Independent test set
--     * Save data for PR and ROC
+- 2.1 Nested CV
+- 2.2 CV to tune hyperparameters for independent test set
+- 2.3 Independent test set
+- * Save data for PR and ROC
 
 ## Pairwise Paired T-test
 
