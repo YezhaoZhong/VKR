@@ -7,6 +7,18 @@ The .ipynb files are for generating the results of ADRs prediction using multipl
 
 ## ADRs Prediction
 
-### Naive Methods
+The code for ADRs prediction were built based on different models. Here are the .ipynb files for generating the results of nested CV and the independent test sets 
+for the models. 
+- KR.ipynb
+
+## Pairwise Paired T-test
 
 
+## Figures
+
+
+# Data
+
+# Figs
+
+# Results
