@@ -12,8 +12,8 @@ for the models.
 - KR.ipynb: Kernel Regression, Multi-Kernel Regression for integrating features
 - Naive.ipynb: Naive method
 - LNSM_RLN.ipynb: LNSM, LNSM-CMI and LNSM-SMI with Regularized Linear Neighbourhood Similarity (RLN)
-- LNSM_jaccard.ipynb: LNSM, LNSM-CMI and LNSMS-SMI with Jaccard Similarty
-- SVM_linear.ipynb: SVM with linear kernel
+- LNSM_Jaccard.ipynb: LNSM, LNSM-CMI and LNSMS-SMI with Jaccard Similarty
+- SVM_Linear.ipynb: SVM with linear kernel
 - SVM_RBF.ipynb: SVM with RBF kernel
 - SVM_WGTS.ipynb: SVM with WGTS kernel
 - VKR.ipynb: Our VKR method
@@ -26,6 +26,8 @@ Each file has sections:
     * 2.2. CV to tune hyperparameters for independent test set
     * 2.3. Independent test set
     * \*. Save data for PR and ROC
+
+After the first section ran, you can run the subsection 2.1.-2.3. separately. Section \* is for saving the result of 2.3. used for AUROC and AUPR. Run code in section 2.3. before section \*
 
 ## Pairwise Paired T-test
 
