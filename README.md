@@ -2,12 +2,15 @@
 Non-Negative Matrix Factorization Improved Kernel Regression for Side Effect Prediction
 ipynb for review of ADRs prediciton study and VKR.
 
+- Figs: Path for .ipynb that generating figures
+- data: drug-side effect pairs from 
+
 # .ipynb file
 The .ipynb files are for generating the results of ADRs prediction using multiple models, including the Naive method (Calculating Mean across drugs as prediction of a ADR), Kernel Regression(KR), Support Vector Machine (SVM) wiith kernel Radial Basis Function (RBF) kernel, Linear kernel and Weighted Generalized T-Student (WGTS) kernel, Linear Neighbourhood Similarity Method (LNSM) with different feature combination methods including Cost Minimization Integration method (CMI) and Similarity Matrix Integration (SMI) method. Further more, we also built .ipynb files for genereting figures, as well as the p-values for methods comparison.
 
 ## ADRs Prediction
 
-The code for ADRs prediction were built based on different models. Here are the .ipynb files for generating the results of nested CV and the independent test sets 
+The code for side effects prediction were built based on different models. Here are the .ipynb files for generating the results of nested CV and the independent test sets 
 for the models. 
 - KR.ipynb: Kernel Regression, Multi-Kernel Regression for integrating features
 - Naive.ipynb: Naive method
@@ -31,9 +34,10 @@ After the first section ran, you can run the subsection 2.1.-2.3. separately. Se
 
 ## Pairwise Paired T-test
 
-Pvalue.ipynb is for calculating the P-value of paired t-test. Results from the nested CV is on "results/AUPR.
+Pvalue.ipynb is for calculating the P-value of paired t-test. Results from the nested CV is on "results/AUPR.csv" and "results/AUPR/csv".
 
 ## Figures
+
 
 
 # Data
