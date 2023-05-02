@@ -41,7 +41,7 @@ Organized output for nested CV: [/results/](https://github.com/YezhaoZhong/VKR/t
 - [AUROC.csv](https://github.com/YezhaoZhong/VKR/blob/main/results/AUROC.csv)
 
 Output for independent set: [/Figs/](https://github.com/YezhaoZhong/VKR/tree/main/Figs)
-- \*csv
+- \*.csv
 
 Required modules:
 - pandas
