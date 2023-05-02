@@ -11,7 +11,7 @@ The .ipynb files are for generating the results of ADRs prediction using multipl
 
 The code for side effects prediction were built based on different models. Here are the .ipynb files for generating the results of nested CV and the independent test sets 
 for the models. 
-- KR.ipynb: Kernel Regression, Multi-Kernel Regression for integrating features
+- [KR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/KR.ipynb): Kernel Regression, Multi-Kernel Regression for integrating features
 - Naive.ipynb: Naive method
 - LNSM_RLN.ipynb: LNSM, LNSM-CMI and LNSM-SMI with Regularized Linear Neighbourhood Similarity (RLN)
 - LNSM_Jaccard.ipynb: LNSM, LNSM-CMI and LNSMS-SMI with Jaccard Similarty
@@ -39,7 +39,20 @@ Input: /data/
 Organized output for nested CV: /results/
 - AUPR.csv
 - AUROC.csv
-Output for independent set: /Figs/\*csv
+
+Output for independent set: /Figs/
+- \*csv
+
+Required module
+- pandas
+- networkx
+- numpy
+- sklearn
+- time
+- scipy
+- joblib
+================
+
 
 ## Pairwise Paired T-test
 
@@ -48,10 +61,10 @@ Pvalue.ipynb is for calculating the P-value of pairwise paired t-test.
 Input: /results/
 - AUPR.csv
 - AUPR/csv
+
 Output: /results/
 - Pvalue_AUPR.csv
 - Pvalue_AUROC.csv
-
 
 
 ## Figures
