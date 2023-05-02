@@ -31,10 +31,10 @@ Each file has sections:
 
 After the first section ran, you can run the subsection 2.1.-2.3. separately. Section 2.1. is for the nested CV of methods and running this section is time consuming. Section 2.2. is for tuning the hyperparmeters for section 2.2. Section \* is for saving the result of 2.3. used for AUROC and AUPR. Run code in section 2.3. before section \*. 
 
-Input: /data/
-- intersection_DGIdb_mat.tsv: Drug-gene interaction pairs from DGIdb. Data were generated to the binary matrix form. Drugs are intersection of DGIdb 4.0 and SIDER 4.1.
-- intersection_Fingerprint_mat.tsv: Fingerprints from PubChem. Data were generated to the binary matrix form. Drugs are intection of PubChem Chemical structure fingerprint and SIDER 4.1.
-- side-effect-and-drug_name_upper.tsv: Drug-side effect pairs from SIDER 4.1.
+Input: [/data/](https://github.com/YezhaoZhong/VKR/tree/main/data)
+- [intersection_DGIdb_mat.tsv](https://github.com/YezhaoZhong/VKR/blob/main/data/intersection_DGIdb_mat.tsv): Drug-gene interaction pairs from DGIdb. Data were generated to the binary matrix form. Drugs are intersection of DGIdb 4.0 and SIDER 4.1.
+- [intersection_Fingerprint_mat.tsv](https://github.com/YezhaoZhong/VKR/blob/main/data/intersection_Fingerprint_mat.tsv): Fingerprints from PubChem. Data were generated to the binary matrix form. Drugs are intection of PubChem Chemical structure fingerprint and SIDER 4.1.
+- [side-effect-and-drug_name_upper.tsv](https://github.com/YezhaoZhong/VKR/blob/main/data/side-effect-and-drug_name_upper.tsv): Drug-side effect pairs from SIDER 4.1.
 
 Organized output for nested CV: [/results/](https://github.com/YezhaoZhong/VKR/tree/main/results)
 - [AUPR.csv](https://github.com/YezhaoZhong/VKR/blob/main/results/AUPR.csv)
@@ -43,7 +43,7 @@ Organized output for nested CV: [/results/](https://github.com/YezhaoZhong/VKR/t
 Output for independent set: [/Figs/](https://github.com/YezhaoZhong/VKR/tree/main/Figs)
 - \*csv
 
-Required module
+Required modules:
 - pandas
 - networkx
 - numpy
@@ -52,8 +52,6 @@ Required module
 - scipy
 - joblib
 - itertools
-- 
-
 
 
 ## Pairwise Paired T-test
@@ -70,14 +68,27 @@ Output: [/results/](https://github.com/YezhaoZhong/VKR/tree/main/results)
 
 (Shown after Pvalue.ipynb ran)
 
+Required modules:
+- pandas
+- numpy
+- pingouin
 
 ## Figures
 
 [/Figs/](https://github.com/YezhaoZhong/VKR/tree/main/Figs) contains the .ipynb generate figures for our study and the output of independent test set, which is also the input of the '/Figs/\*.ipynb'.
 
-- DGI_Chem.ipynb: Generate Figure S 5.
-- KR_VKR.ipynb: Genrate Figure S 4.
-- Overall.ipynb: Generate Figure 2.
+- [DGI_Chem.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/DGI_Chem.ipynb): Generate Figure S 5.
+- [KR_VKR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/KR_VKR.ipynb): Genrate Figure S 4.
+- [Overall.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/Overall.ipynb): Generate Figure 2.
 
 Input: /Figs/*.csv (After code in sections '\*. Save data for PR and ROC' ran)
 Ouput: /Figs/*.jpg
+
+## Author
+Yezhao Zhong
+Cathal Seoighe
+Haixuan Yang
+
+## License
+
+This project is licensed. See license file for details.
