@@ -81,8 +81,10 @@ Required modules:
 - [KR_VKR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/KR_VKR.ipynb): Genrate Figure S 4.
 - [Overall.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/Overall.ipynb): Generate Figure 2.
 
-Input: /Figs/*.csv (After code in sections '\*. Save data for PR and ROC' ran)
-Ouput: /Figs/*.jpg
+Input: 
+- /Figs/\*.csv (After code in sections '\*. Save data for PR and ROC' ran)
+Ouput: 
+- /Figs/\*.jpg
 
 ## Author
 Yezhao Zhong
