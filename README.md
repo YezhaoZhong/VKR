@@ -91,4 +91,4 @@ Haixuan Yang
 
 ## License
 
-This project is licensed. See license file for details.
+This project is licensed. See [LICENSE](https://github.com/YezhaoZhong/VKR/blob/main/LICENSE) file for details.
