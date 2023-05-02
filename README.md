@@ -36,11 +36,11 @@ Input: /data/
 - intersection_Fingerprint_mat.tsv: Fingerprints from PubChem. Data were generated to the binary matrix form. Drugs are intection of PubChem Chemical structure fingerprint and SIDER 4.1.
 - side-effect-and-drug_name_upper.tsv: Drug-side effect pairs from SIDER 4.1.
 
-Organized output for nested CV: /results/
-- AUPR.csv
-- AUROC.csv
+Organized output for nested CV: [/results/](https://github.com/YezhaoZhong/VKR/tree/main/results)
+- [AUPR.csv](https://github.com/YezhaoZhong/VKR/blob/main/results/AUPR.csv)
+- [AUROC.csv](https://github.com/YezhaoZhong/VKR/blob/main/results/AUROC.csv)
 
-Output for independent set: /Figs/
+Output for independent set: [/Figs/](https://github.com/YezhaoZhong/VKR/tree/main/Figs)
 - \*csv
 
 Required module
@@ -60,18 +60,20 @@ Required module
 
 Pvalue.ipynb is for calculating the P-value of pairwise paired t-test. 
 
-Input: /results/
-- AUPR.csv
-- AUPR.csv
+Input: [/results/](https://github.com/YezhaoZhong/VKR/tree/main/results)
+- [AUPR.csv](https://github.com/YezhaoZhong/VKR/blob/main/results/AUPR.csv)
+- [AUROC.csv](https://github.com/YezhaoZhong/VKR/blob/main/results/AUROC.csv)
 
-Output: /results/
+Output: [/results/](https://github.com/YezhaoZhong/VKR/tree/main/results)
 - Pvalue_AUPR.csv
 - Pvalue_AUROC.csv
+
+(Shown after Pvalue.ipynb ran)
 
 
 ## Figures
 
-'/Figs/' contains the .ipynb generate figures for our study and the output of independent test set, which is also the input of the '/Figs/\*.ipynb'.
+[/Figs/](https://github.com/YezhaoZhong/VKR/tree/main/Figs) contains the .ipynb generate figures for our study and the output of independent test set, which is also the input of the '/Figs/\*.ipynb'.
 
 - DGI_Chem.ipynb: Generate Figure S 5.
 - KR_VKR.ipynb: Genrate Figure S 4.
