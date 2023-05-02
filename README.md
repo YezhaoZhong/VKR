@@ -1,6 +1,7 @@
 # VKR
-Non-Negative Matrix Factorization Improved Kernel Regression for Side Effect Prediction
-ipynb for review of ADRs prediciton study and VKR.
+
+.ipynb for review of ADRs prediciton study and VKR in 'Non-Negative Matrix Factorization Improved Kernel Regression for Side Effect Prediction'.
+
 
 
 # .ipynb file
