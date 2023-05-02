@@ -62,7 +62,7 @@ Pvalue.ipynb is for calculating the P-value of pairwise paired t-test.
 
 Input: /results/
 - AUPR.csv
-- AUPR/csv
+- AUPR.csv
 
 Output: /results/
 - Pvalue_AUPR.csv
