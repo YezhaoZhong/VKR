@@ -86,6 +86,14 @@ Input:
 Ouput: 
 - /Figs/\*.jpg
 
+Required modules：
+- pandas
+- matplotlib
+- sklearn
+- numpy
+
+
+
 ## Author
 Yezhao Zhong
 Cathal Seoighe
