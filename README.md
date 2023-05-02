@@ -12,13 +12,13 @@ The .ipynb files are for generating the results of ADRs prediction using multipl
 The code for side effects prediction were built based on different models. Here are the .ipynb files for generating the results of nested CV and the independent test sets 
 for the models. 
 - [KR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/KR.ipynb): Kernel Regression, Multi-Kernel Regression for integrating features
-- Naive.ipynb: Naive method
-- LNSM_RLN.ipynb: LNSM, LNSM-CMI and LNSM-SMI with Regularized Linear Neighbourhood Similarity (RLN)
-- LNSM_Jaccard.ipynb: LNSM, LNSM-CMI and LNSMS-SMI with Jaccard Similarty
-- SVM_Linear.ipynb: SVM with linear kernel
-- SVM_RBF.ipynb: SVM with RBF kernel
-- SVM_WGTS.ipynb: SVM with WGTS kernel
-- VKR.ipynb: Our VKR method
+- [Naive.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Naive.ipynb): Naive method
+- [LNSM_RLN.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/LNSM_RLN.ipynb): LNSM, LNSM-CMI and LNSM-SMI with Regularized Linear Neighbourhood Similarity (RLN)
+- [LNSM_Jaccard.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/LNSM_Jaccard.ipynb): LNSM, LNSM-CMI and LNSMS-SMI with Jaccard Similarty
+- [SVM_Linear.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/SVM_Linear.ipynb): SVM with linear kernel
+- [SVM_RBF.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/SVM_RBF.ipynb): SVM with RBF kernel
+- [SVM_WGTS.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/SVM_WGTS.ipynb): SVM with WGTS kernel
+- [VKR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/VKR.ipynb): Our VKR method
 
 Each file has sections: 
 
@@ -51,7 +51,9 @@ Required module
 - time
 - scipy
 - joblib
-================
+- itertools
+- 
+
 
 
 ## Pairwise Paired T-test
