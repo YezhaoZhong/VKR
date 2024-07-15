@@ -96,8 +96,8 @@ Required modules：
 
 
 ## Author
-Yezhao Zhong
-Cathal Seoighe
+Yezhao Zhong, 
+Cathal Seoighe, 
 Haixuan Yang
 
 ## License
