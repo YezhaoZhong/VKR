@@ -15,7 +15,7 @@ for the models.
 - [KR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/KR.ipynb): Kernel Regression, Multi-Kernel Regression for integrating features
 - [Naive.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Naive.ipynb): Naive method
 - [LNSM_RLN.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/LNSM_RLN.ipynb): LNSM, LNSM-CMI and LNSM-SMI with Regularized Linear Neighbourhood Similarity (RLN)
-- [LNSM_Jaccard.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/LNSM_Jaccard.ipynb): LNSM, LNSM-CMI and LNSMS-SMI with Jaccard Similarty
+- [LNSM_Jaccard.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/LNSM_Jaccard.ipynb): LNSM, LNSM-CMI and LNSM-SMI with Jaccard Similarty
 - [SVM_Linear.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/SVM_Linear.ipynb): SVM with linear kernel
 - [SVM_RBF.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/SVM_RBF.ipynb): SVM with RBF kernel
 - [SVM_WGTS.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/SVM_WGTS.ipynb): SVM with WGTS kernel
