@@ -79,7 +79,7 @@ Required modules:
 [/Figs/](https://github.com/YezhaoZhong/VKR/tree/main/Figs) contains the .ipynb generate figures for our study and the output of independent test set, which is also the input of the '/Figs/\*.ipynb'.
 
 - [DGI_Chem.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/DGI_Chem.ipynb): Generate Figure S 5.
-- [KR_VKR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/KR_VKR.ipynb): Genrate Figure S 4.
+- [KR_VKR.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/KR_VKR.ipynb): Generate Figure S 4.
 - [Overall.ipynb](https://github.com/YezhaoZhong/VKR/blob/main/Figs/Overall.ipynb): Generate Figure 2.
 
 Input: 
